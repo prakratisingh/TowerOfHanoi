@@ -1,0 +1,13 @@
+Tower Of Hanoi problem. 
+It is one of the main applications of recursion. 
+This says "If you can solve n-1 cases then you can easily solve the nth case."
+![](image.png)
+
+Base Case (if n=1)
+Move the ring from A to C using B as base. 
+
+Recursive Case
+- Move n-1 rings from source(A) to spare pole(B).
+- Move the nth ring from source(A) to destination(C)
+- Move n-1 rings from the spare pole(B) to destination(C).
+
